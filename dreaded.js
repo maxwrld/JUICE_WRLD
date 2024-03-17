@@ -459,7 +459,7 @@ let cap = `╭════〘 *_JUICE WRLD_* 〙═⊷❍
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./menu.mp4'),
+                        video: fs.readFileSync('./JUICE'),
                         caption: cap,
                         gifPlayback: true
                     }, {
@@ -478,7 +478,7 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `JUICE_WRLD`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./crown.jpg'),
+                                thumbnail: fs.readFileSync('./JUICE.jpg'),
                                 sourceUrl: 'https://wa.me/254768301278?text=ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏+Nihostie+Bot+Mkuu+🥲',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
